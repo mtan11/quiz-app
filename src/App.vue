@@ -200,8 +200,7 @@
 </template>
 
 <script>
-import data from "raw-loader!./assets/quiz.txt";
-var myquiz = data.split("\n");
+var myquiz = text.split("\n");
 var myquizraw = [];
 function shuffle(array) {
   let currentIndex = array.length;
